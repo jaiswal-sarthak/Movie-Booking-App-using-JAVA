@@ -875,7 +875,7 @@ class ConfirmationPage extends JFrame {
 class Movie {
     public static List<MovieItem> getUpcomingMoviesFromAPI() {
         List<MovieItem> movies = new ArrayList<>();
-        String apiKey = "jfvsdfgf13rfbwcgyqq63432gffg81t676"; // Your TMDb API key
+        String apiKey = "jfvsdfgf1381t676"; // Your TMDb API key
         String apiUrl = "https://api.themoviedb.org/3/movie/upcoming?api_key=" + apiKey;
 
         try {
